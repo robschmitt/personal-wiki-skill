@@ -193,6 +193,7 @@ See `Wiki Conventions.md` at the vault root — it carries the folder convention
 - Group by topic (e.g. `Soot/Apps`, `Soot/Marketing`), or by series for dated notes (`Soot/Handovers`).
 - Each subfolder holds 2 or more notes. A one-note subfolder adds a click and no clarity.
 - The folder's index note stays at the parent and lists notes under subfolder headings.
+- Only move notes that belong to a clearly defined sub-topic. Whether the rest stay at the parent follows the leaf-folder rule in `Wiki Conventions.md`; don't invent a catch-all subfolder ("General", "Project") to empty the parent.
 - Propose the grouping as a list (subfolder: notes) and get approval before moving anything.
 - After moving: `[[Note Title]]` links keep resolving (Obsidian links by shortest path) unless the move creates a duplicate title. Grep the vault for path-style references (`Soot/Build Log`) and fix those. Add the new subfolders to the taxonomy in `Wiki Conventions.md` in the same pass.
 
